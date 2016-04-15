@@ -33,12 +33,12 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstracts\Repositories\IRepositoryBase.cs" />
     <Compile Include="Entities\Empresa.cs" />
     <Compile Include="Entities\Funcionario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Abstracts\Repositories\" />
     <Folder Include="Abstracts\Services\" />
     <Folder Include="Services\" />
   </ItemGroup>

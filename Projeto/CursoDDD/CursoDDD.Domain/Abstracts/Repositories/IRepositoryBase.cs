@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoDDD.Domain.Abstracts.Repositories
 {
-    interface IRepositoryBase
+   public interface IRepositoryBase<TEntity>
     {
     }
 }
